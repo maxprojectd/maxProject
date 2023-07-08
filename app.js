@@ -210,7 +210,7 @@ timeoutId = setTimeout(resetText, 2000)
 
 // timer start
 
-let selectedDate = new Date("2023/7/16").getTime()
+let selectedDate = new Date("2023/7/19").getTime()
 
 
 
