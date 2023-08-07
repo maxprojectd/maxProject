@@ -414,7 +414,7 @@ p {
 /* achiment end */
 /* course start */
 .course .container {
-  padding-block: 100px;
+  padding-block: 50px;
   background: var(--black800);
 }
 .course .container .main {
