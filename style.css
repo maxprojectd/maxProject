@@ -427,6 +427,7 @@ p {
   width: 100%;
   display: block;
   border-radius: 20px;
+  aspect-ratio: 16/9;
 }
 
 .course .container .box {
@@ -437,6 +438,10 @@ p {
   border-radius: 20px;
   background: var(--black700);
   transition-duration: 300ms;
+  text-align: center;
+}
+.course .container .box > div{
+  width: 50%;
 }
 .course .container .box:hover {
   background: var(--black600);
