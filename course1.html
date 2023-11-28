@@ -573,14 +573,29 @@ Among them, the most important of which are command injection bugs, site databas
     left: 0;
     width: 100%;
     height: 100%;
-    
+  }
+  .priceTag{
+    position: relative;
+  }
+  .priceTag .text2{
+    position: absolute;
+    left: 80%;
+    top: -40%;
+    transform: rotate(45deg);
+    font-size: 20px;
+    text-decoration: line-through;
+    text-decoration-color: var(--main-color);
   }
 </style>
 
       <div class="package-container">
         <div class="packages">
           <h1>Just course</h1>
-          <h2 class="text1">&dollar;49.99</h2>
+          <div class="priceTag">
+
+            <h2 class="text2">&dollar;49.99</h2>
+            <h2 class="text1">&dollar;29.99</h2>
+          </div>
           <ul class="list">
             <li class="first"> ست ساعات من الكورس</li>
             <li>شرح كل انواع الثغرات وتبليغها</li>
@@ -590,7 +605,11 @@ Among them, the most important of which are command injection bugs, site databas
         </div>
         <div class="packages">
           <h1>course Plus</h1>
-          <h2 class="text1">&dollar;69.99</h2>
+          <div class="priceTag">
+
+            <h2 class="text2">&dollar;69.99</h2>
+            <h2 class="text1">&dollar;49.99</h2>
+          </div>
           <ul class="list">
             <li class="first">ست ساعات من الكورس </li> 
             <li>شرح كل انواع الثغرات وتبليغها</li>
